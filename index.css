@@ -95,10 +95,26 @@ body {
   width: 100%;
   padding: 20px;
   display: flex;
+  justify-content: space-between;
   border-radius: 5px;
   box-shadow: 0 1px 6px -2px #000;
   background-color: #FFF;
   margin-bottom: 30px;
+  height: 85px;
+  overflow: hidden;
+}
+.card-open {
+  height: auto;
+}
+.hidden{
+  display: none;
+}
+
+.expandButton {
+  font-size: 4rem;
+  color: grey;
+  cursor: pointer;
+  background-color: white;
 }
 
 .card img {
